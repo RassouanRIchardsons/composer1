@@ -1,0 +1,21 @@
+{
+    "name": "62014-14-03/composer1",
+    "description": "description dossier test 30-09-2019",
+    "authors": [
+        {
+            "name": "RICHARDSONS Rassouan",
+            "email": "r.richardsons@hotmail.fr"
+        }
+    ],
+    "require": {
+        "symfony/debug": "^3.4"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "src\\": "src"
+        }
+    }
+}
